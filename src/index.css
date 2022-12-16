@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("http://fonts.cdnfonts.com/css/oregon-ldo");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+@font-face {
+  font-family: "font-1";
+  src: local("2"), url("./fonts/2.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font-2";
+  src: local("5"), url("./fonts/5.ttf") format("truetype");
+}
+@font-face {
+  font-family: "font-3";
+  src: local("6"), url("./fonts/6.ttf") format("truetype");
+}
+
+.headerFont {
+  font-family: "Playfair Display", serif;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.color {
+  color: #2e4463;
+}
+/* responsive   */
+@media (max-width: 320px) {
+  .cardItem {
+    width: 155px;
+  }
+  .pic {
+    height: 110px;
+  }
+  .formWidth {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+  .cardItem {
+    width: 185px;
+  }
+  .pic {
+    height: 130px;
+  }
+  .formWidth {
+    width: 360px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 766px) {
+  .cardItem {
+    width: 210px;
+  }
+  .pic {
+    height: 150px;
+  }
+  .formWidth {
+    width: 400px;
+  }
+}
+@media (min-width: 767px) {
+  .pic {
+    height: 200px;
+  }
+  .cardItem {
+    width: 250px;
+  }
+  .mainContainer {
+    width: 1024px;
+  }
+}
+@media (min-width: 1440px) {
+  .pic {
+    height: 200px;
+  }
+  .formWidth {
+    width: 400px;
+  }
+  .drawerWidth {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .formWidth {
+    width: 90%;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+}
+@media (min-width: 501px) {
+  .formWidth {
+    width: 500px;
+  }
+}
+
+/* container responsiveness */
+@media (min-width: 1024px) {
+  .mainContainer {
+    max-width: 1024px;
+  }
+  .textMargin {
+    margin-left: 150px;
+  }
+  .minorContainer {
+    width: 1024px;
+  }
+  .GraphContainer {
+    max-width: 800px;
+    max-height: 500px;
+  }
+}
+@media (min-width: 1441px) {
+  .mainContainer {
+    max-width: 1441px;
+  }
+  .textMargin {
+    margin-left: 150px;
+  }
+}
+@media (min-width: 2160px) {
+  .mainContainer {
+    max-width: 2160px;
+  }
+  .textMargin {
+    margin-left: 150px;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  z-index: 40;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 400px;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
