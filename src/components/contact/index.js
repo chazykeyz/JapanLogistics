@@ -32,7 +32,7 @@ function Contact() {
           Together
         </a>
       </h1>
-      <h3 className="my-2 font-bold">+255 748 333 353 /+255 713 009 710</h3>
+      <h3 className="my-2 font-bold">+255 713 009 710 / +255 748 333 353 </h3>
 
       <div>
         <a

@@ -32,25 +32,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="flex mt-10  p-2">
-        <a
-          rel="noreferrer"
-          href="https://www.instagram.com/afriherit_group/"
-          target="_blank"
-          className="link"
-        >
-          <AiFillInstagram
-            size={27}
-            className="mx-1 hover:text-blue-500 text-white"
-          />
-        </a>
-        <a
-          rel="noreferrer"
-          href="mailto:info@japanlogistics.co.tz"
-          target="_blank"
-          className="link"
-        >
+        <a href="mailto:giftedwards9@gmail.com">
           <MdEmail size={27} className="mx-1 hover:text-blue-500 text-white" />
         </a>
       </div>
