@@ -23,7 +23,7 @@ function Contact() {
       <h1 className="text-4xl font-bold text-center">
         <b>Let’s work, </b>
         <a
-          href="tel: +255 748 333 353"
+          href="tel: +255 789 680 352"
           style={{
             textDecoration: "none",
           }}
@@ -32,11 +32,11 @@ function Contact() {
           Together
         </a>
       </h1>
-      <h3 className="my-2 font-bold">+255 713 009 710 / +255 748 333 353 </h3>
+      <h3 className="my-2 font-bold">+255 713 009 710 / +255 789 680 352 </h3>
 
       <div>
         <a
-          href="https://wa.me/+255748333353"
+          href="https://wa.me/+255713009710"
           style={{
             textDecoration: "none",
             color: "white",
