@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex mt-10  p-2">
-        <a href="mailto:giftedwards9@gmail.com">
+        <a href="mailto:info@japanlogistics.co.tz">
           <MdEmail size={27} className="mx-1 hover:text-blue-500 text-white" />
         </a>
       </div>
